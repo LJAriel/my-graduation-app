@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My graduatio app</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>hola pompom</h1>
-    <p>tuki tuki tuki</p>
+    <h1>Gestión de Graduación de Alumnos</h1>
+    
+     <!-- Formulario para agregar alumnos -->
+     <div id="add-student">
+        <input type="text" id="student-name" placeholder="Nombre del alumno">
+        <button id="add-student-btn">Agregar Alumno</button>
+      </div>
+
+    <!-- Lista de alumnos -->
+  <h2>Lista de Alumnos</h2>
+  <ul id="students-list"></ul>
 
     <!-- Enlace al archivo JavaScript -->
     <script src="app.js"></script>
